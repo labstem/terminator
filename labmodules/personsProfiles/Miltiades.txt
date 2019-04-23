@@ -1,0 +1,7 @@
+name#Miltiadis
+surname#Mantes
+job#student
+age#16
+team#Olympiakos
+friends#Stefanos#Nikos
+city#Lamia

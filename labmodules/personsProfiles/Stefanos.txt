@@ -1,0 +1,7 @@
+name#Stefanos
+surname#Zaharopoulos
+job#student
+age#14
+team#Olympiakos
+friends#Lefteris
+city#Lamia
