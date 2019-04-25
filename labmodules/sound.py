@@ -2,7 +2,13 @@ from labmodules import logger
 import speake3
 
 class LabSound:
-    '''This a class created on 25/1/2019 by Yannis for speaking purposes'''
+    '''
+    This a class created on 25/1/2019 for speaking purposes
+    We use the 'speake3' library.
+    
+    Our robot, under some specific cirmumstances needs to speak some
+    specific messages.
+    '''
 
     def __init__(self):
         try:

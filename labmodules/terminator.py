@@ -9,8 +9,8 @@ class Terminator:
     def salute(self,p):
         logger.log.cout(self.profiles[p]['name'])
         sound.robotVoice.say('Hello mister {0} {1}'.format(self.profiles[p]['name'],self.profiles[p]['surname']))
-        sound.robotVoice.say('You are a {0} and you are {1} years old'.format(self.profiles[p]['job'],self.profiles[p]['age']))
-        sound.robotVoice.say('Your favourit team is {0} and you live at {1}'.format(self.profiles[p]['team'],self.profiles[p]['city']))
+        #sound.robotVoice.say('You are a {0} and you are {1} years old'.format(self.profiles[p]['job'],self.profiles[p]['age']))
+        #sound.robotVoice.say('Your favourit team is {0} and you live at {1}'.format(self.profiles[p]['team'],self.profiles[p]['city']))
         #self.friends = [f for f in str(self.profiles[p]['friends']).split("#")]
         #logger.log.cout(friends)
         #sound.robotVoice.say('Your best friends are  '.)
@@ -81,7 +81,7 @@ class Terminator:
     def greetings(self):
         '''Greeting message from Robot '''
         logger.log.cout("Greetings from Robot")
-        sound.robotVoice.say("Welcome to Robotics Contest!")
+        sound.robotVoice.say("Welcome to Open Source Robotics Contest!")
         time.sleep(0.5)
         sound.robotVoice.say("My name is Terinator, and I have been created by LabSTEM robotics")
 
